@@ -1,0 +1,154 @@
+﻿body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    min-height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header-container {
+    width: auto;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+    display: flex;
+}
+
+.o-tim-kiem {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ccc; /* viền xám nhạt */
+    border-radius: 10px; /* bo góc */
+    padding: 2px 6px; /* khoảng cách chữ với viền */
+    outline: none;
+    font-size: 12px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+    .o-tim-kiem:focus {
+        border-color: #999; /* viền đậm hơn khi gõ */
+    }
+
+.hang-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* giữa dọc */
+    margin-left: 200px;
+    width: 500px;
+}
+
+.clickable-text {
+    cursor: pointer;
+    color: black; /* hoặc màu bạn muốn */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+    .clickable-text:hover {
+        color: #20265b; /* màu khi rê chuột */
+    }
+
+.user-menu {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.user-icon {
+    width: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 10px 0;
+    border-radius: 8px;
+    z-index: 999;
+    min-width: 120px;
+}
+
+    .dropdown-menu a {
+        display: block;
+        padding: 8px 16px;
+        text-decoration: none;
+        color: #333;
+    }
+
+        .dropdown-menu a:hover {
+            background-color: #f0f0f0;
+        }
+
+.xinchao {
+    font-size: 15px;
+    color: #20265b;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+.sanpham-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    font-size: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+    .sanpham-table th {
+        background-color: #f5f5f5;
+        color: #333;
+        padding: 12px;
+        border-bottom: 2px solid #ccc;
+        text-align: center;
+    }
+
+    .sanpham-table td {
+        padding: 10px;
+        text-align: center;
+        vertical-align: top;
+        border-bottom: 1px solid #eee;
+    }
+
+    .sanpham-table tr:hover {
+        background-color: #fafafa;
+    }
+
+.sanpham-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+    .sanpham-list li {
+        margin-bottom: 5px;
+        font-size: 13px;
+        color: #444;
+    }
+
+/* Tổng tiền */
+.sanpham-table strong {
+    color: #20265b;
+    font-weight: bold;
+}
+
+/* Trạng thái */
+.sanpham-table td:last-child {
+    font-weight: bold;
+    color: #0066cc;
+}

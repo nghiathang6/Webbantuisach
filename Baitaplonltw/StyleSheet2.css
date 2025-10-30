@@ -1,0 +1,54 @@
+﻿/* Nền tổng thể */
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container chính */
+.admin-container {
+    width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    border: 1px solid #e0dacc;
+    border: 1px solid #ccc;
+}
+
+    /* Tiêu đề */
+    .admin-container h2 {
+        color: #6b4c3b;
+        margin-bottom: 20px;
+    }
+
+/* Các nút chức năng */
+.admin-btn {
+    background-color: #d6a97e; /* màu nâu be nhạt */
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .admin-btn:hover {
+        background-color: #b68c64;
+    }
+
+/* Nút đăng xuất hoặc chức năng thêm */
+.btn-logout {
+    background-color: #aa4a44;
+    margin-top: 20px;
+}
+
+    .btn-logout:hover {
+        background-color: #933e3a;
+    }

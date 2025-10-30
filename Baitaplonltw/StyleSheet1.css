@@ -1,0 +1,73 @@
+﻿body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.form-container {
+    width: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+.input-container {
+    position: relative;
+    margin: 13px 0;
+    display: flex;
+}
+.have {
+    color: red;
+    font-size: 13px;
+    margin-top: 15px;
+    display: block;
+    text-align: right;
+}
+.error-message {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+    display: block;
+    text-align: right;
+}
+.btn-dangky {
+    background-color: #e2725b; /* cam đất mềm */
+    color: white;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width :250px;
+}
+.btn-reset {
+    background-color: #28a745; color: white;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 250px;
+}
+
+.btn-dangky:hover {
+    background-color: #cf5a42; /* màu hover đậm hơn */
+}
+
+
